@@ -1,0 +1,30 @@
+        body {
+            text-align: center;
+            padding-top: 30px;
+        }
+        #box {
+            display: block;
+        }
+        .box {
+            border: 2px solid black;
+            width: 95%;
+            border-radius: 80px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            display: flex;
+            margin: 10px auto;
+        }
+         .box h3 {
+            margin: 20px;
+        }
+        .box img {
+           margin: 10px;
+           width: 50px;
+           height: 50px;
+           border-radius: 50%;
+           text-align: left;
+        }
+        #mimg {
+            width: 60%;
+            height: 200px;
+            margin: 10px;
+        }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="visit.css">
+    <title>Visit</title>
+</head>
+<body>
+<div id="main">
+    
+   <img id="mimg" src="logo.jpg">
+
+    <div id="box">
+        <div id="review" class="box" onclick="gg()">
+            <img src="google.jpg"><h3>Google Review</h3>
+        </div>
+        <div id="insta" class="box" onclick="ins()">
+            <img src="insta.jpg"><h3>Follow ON Insta</h3>
+        </div>
+        <div id="fb" class="box" onclick="fb()">
+            <img src="fb.avif"><h3>Follow ON FB</h3>
+        </div>
+        <div id="ws" class="box" onclick="wb()">
+            <img src="wb.png"><h3>Visit Site</h3>
+        </div>
+    </div>
+</div>
+
+
+    <script>
+        function ins() {
+        window.open("https://www.instagram.com/_.ajmall.__/", "_blank");
+        }
+        function gg() {
+        window.open("https://business.google.com/reviews", "_blank");
+        }
+        function fb() {
+        window.open("https://www.facebook.com/", "_blank");
+        }
+        function wb() {
+        window.open("https://en.wikipedia.org/wiki/Website", "_blank");
+        }
+    </script>
+</body>
+</html>
